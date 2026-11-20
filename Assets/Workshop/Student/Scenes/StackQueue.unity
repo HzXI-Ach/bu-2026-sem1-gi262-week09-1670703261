@@ -820,7 +820,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1794,7 +1794,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -2720,7 +2720,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -2770,6 +2770,8 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+  m_MaxWidth: -1
+  m_MaxHeight: -1
 --- !u!1 &1896041309
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,6 +3254,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 909015994}
     - target: {fileID: 9025232857560474648, guid: f0158faaeec698c4fa8bd648add0080f, type: 3}
+      propertyPath: mapGenerator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025232857560474648, guid: f0158faaeec698c4fa8bd648add0080f, type: 3}
       propertyPath: dialogueSeauen
       value: 
       objectReference: {fileID: 1806821597}
@@ -3524,7 +3530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 302965248406753578, guid: 4f1110dfa53247c4395893b70bc7d69b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4507059989428831995, guid: 4f1110dfa53247c4395893b70bc7d69b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3573,7 +3579,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1966699606455138827, guid: 4f1110dfa53247c4395893b70bc7d69b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 4f1110dfa53247c4395893b70bc7d69b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
